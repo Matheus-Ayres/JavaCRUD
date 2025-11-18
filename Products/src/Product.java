@@ -13,6 +13,6 @@ public class Product {
     public String getName(){ return name; }
     public int getPrice(){ return price; }
 
-    public String setName(){ return name; }
-    public int setPrice(){ return price; }
+    public String setProductName(String name){ return name; }
+    public int setProductPrice(int price){ return price; }
 }
