@@ -13,7 +13,7 @@ public class FakeDB {
 
     public static Product searchProduct(int id){
         for(Product product : products){
-            if(product.getId() == id);{ //getId == id getter in product.java
+            if(product.getId() == id){ //getId == id getter in product.java
                 return product;
             }
         }

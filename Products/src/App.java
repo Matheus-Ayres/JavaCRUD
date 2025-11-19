@@ -10,13 +10,23 @@ public class App {
 
         service.updateProductName(1, "carro");
 
-        service.searchProduct(2);
+        
+        System.out.println("By id:");
+
+        service.searchProduct(1);
 
         service.updateProductPrice(2, 30);
 
+        
+        System.out.println("After update:");
+
         service.listProducts();
 
-        service.deleteProduct(2);
+        service.deleteProduct(1);
+
+        
+        System.out.println("after dele:");
+
         service.listProducts();
 
     }
