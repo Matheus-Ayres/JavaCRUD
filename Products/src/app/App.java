@@ -1,3 +1,6 @@
+package app;
+import services.Service;
+
 public class App {
     public static void main(String[] args) throws Exception {
         Service service = new Service();

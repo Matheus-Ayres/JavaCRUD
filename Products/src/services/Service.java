@@ -1,3 +1,7 @@
+package services;
+import database.FakeDB;
+import model.Product;
+
 public class Service {
     
     public void createProduct(int id, String name, int price){

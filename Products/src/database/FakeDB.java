@@ -1,3 +1,5 @@
+package database;
+import model.Product;
 import java.util.ArrayList;
 
 public class FakeDB {
